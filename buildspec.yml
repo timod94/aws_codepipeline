@@ -15,5 +15,5 @@ phases:
 
 artifacts:
   files:
-    - build/**  # Speichert den gebauten Output-Ordner
-  base-directory: build  # Setzt den `build/`-Ordner als Wurzel für die Artefakte
+    - '**/*' # Speichert den gebauten Output-Ordner
+  base-directory: dist  # Setzt den `build/`-Ordner als Wurzel für die Artefakte
